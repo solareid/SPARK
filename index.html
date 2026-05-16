@@ -1,46 +1,273 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SPARK — ESA M-class Mission Concept</title>
-<link rel="stylesheet" href="assets/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="SPARK — Solar Particle Acceleration, Radiation and Kinetics: an ESA M-class mission concept to understand particle acceleration in solar flares." />
+  <meta name="theme-color" content="#061326" />
+
+  <meta property="og:title" content="SPARK Mission" />
+  <meta property="og:description" content="How does the Sun turn magnetic energy into high-energy particles?" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/spark-og.svg" />
+
+  <title>SPARK Mission | Solar Particle Acceleration, Radiation and Kinetics</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<nav class="navbar">
-  <div class="nav-container">
-    <a class="brand" href="index.html">SPARK</a>
-    <ul class="nav-links">
-      <li><a href="science.html">Science</a></li>
-      <li><a href="instruments.html">Instruments</a></li>
-      <li><a href="team.html">Team</a></li>
-      <li><a href="reviewers.html">For Reviewers</a></li>
-    </ul>
-  </div>
-</nav>
-<header class="hero">
-<h1>SPARK</h1>
-<p class="subtitle">Solar Particle Acceleration, Radiation and Kinetics</p>
-<p>An ESA M-class mission concept addressing energetic processes in solar flares</p>
-</header>
-<main>
-<section>
-<h2>1. Executive Summary</h2>
-<p>SPARK (Solar Particle Acceleration, Radiation and Kinetics) is a proposed ESA M-class mission dedicated to resolving how magnetic energy is rapidly converted into energetic particles and radiation during solar flares.</p>
-</section>
-<section>
-<h2>2. Mission Overview</h2>
-<p>SPARK combines high-cadence EUV imaging with hard X-ray and gamma-ray spectroscopy to directly link magnetic reconnection, plasma heating, and particle acceleration at their sites of origin.</p>
-</section>
-<section id="status">
-<h2>3. Mission Status</h2>
-<p>SPARK is currently under development as a candidate ESA M-class mission concept.</p>
-</section>
-</main>
-<footer>
-<p>SPARK — Solar Particle Acceleration, Radiation and Kinetics</p>
-<p class="smallprint">Website content aligned with the SPARK ESA M-class Step-2 proposal (science and payload baseline).</p>
-</footer>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="SPARK home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>SPARK</strong>
+          <small>Solar Particle Acceleration, Radiation and Kinetics</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#science">Science</a>
+        <a href="#mission">Mission</a>
+        <a href="#instruments">Instruments</a>
+        <a href="#team">Team</a>
+        <a href="#outreach">Outreach</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">ESA M-class mission concept</p>
+          <h1>How does the Sun turn magnetic energy into high-energy particles?</h1>
+          <p class="lead">SPARK is a mission concept designed to resolve one of the most fundamental unsolved problems in astrophysics: how magnetised plasmas explosively convert stored energy into accelerated particles and heated plasma.</p>
+          <div class="button-row">
+            <a class="button primary" href="#science">Explore the science</a>
+            <a class="button secondary" href="#instruments">View the payload</a>
+          </div>
+        </div>
+        <aside class="mission-card reveal" aria-label="Mission summary">
+          <h2>SPARK</h2>
+          <p>Solar Particle Acceleration, Radiation and Kinetics</p>
+          <dl>
+            <div><dt>Focus</dt><dd>Solar flares and energetic particles</dd></div>
+            <div><dt>Payload</dt><dd>LASSAN + HiFI</dd></div>
+            <div><dt>Orbit</dt><dd>Sun–Earth L1</dd></div>
+            <div><dt>Lifetime</dt><dd>4 years nominal + 3 years extended</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section intro-band">
+      <div class="container narrow reveal">
+        <p class="section-kicker">Why SPARK?</p>
+        <h2>Solar flares are the nearest high-energy particle accelerators we can resolve in space and time.</h2>
+        <p>From relativistic jets in active galactic nuclei to supernova remnant shocks, non-thermal particle acceleration shapes the high-energy Universe. The Sun offers a uniquely accessible laboratory: a place where magnetic energy release, particle acceleration, and plasma heating can be observed directly.</p>
+      </div>
+    </section>
+
+    <section class="section" id="science">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Science</p>
+          <h2>Three questions at the heart of flare physics</h2>
+          <p>SPARK links high-energy particles to the evolving solar atmosphere, allowing the physical mechanisms of acceleration, transport and dissipation to be tested quantitatively.</p>
+        </div>
+        <div class="cards three">
+          <article class="card reveal">
+            <span class="card-number">01</span>
+            <h3>How are electrons and ions accelerated during solar flares?</h3>
+            <p>SPARK will measure electron and ion spectra, timing and composition to distinguish acceleration by reconnection electric fields, turbulence, shocks and plasmoid-mediated processes.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-number">02</span>
+            <h3>How is flare energy transported and dissipated?</h3>
+            <p>By combining high-energy diagnostics with sub-second EUV imaging, SPARK will map how energy reaches the lower atmosphere through particles, conduction and waves.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-number">03</span>
+            <h3>How do reconnection, waves and instabilities interact?</h3>
+            <p>SPARK will resolve rapid variability, quasi-periodic pulsations, current-sheet fragmentation and coronal wave responses during flare energy release.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split-section" id="mission">
+      <div class="container split">
+        <div class="reveal">
+          <p class="section-kicker">Mission concept</p>
+          <h2>A dedicated observatory for the physics of explosive energy release</h2>
+          <p>SPARK is designed to observe solar eruptive events with coordinated EUV, X-ray and γ-ray measurements. From a Sun–Earth L1 orbit, the mission will provide near-continuous monitoring of the Sun and a stable background environment for high-energy spectroscopy.</p>
+          <p>The observing strategy combines continuous high-energy monitoring with flare-responsive high-cadence EUV imaging. LASSAN provides flare triggers and high-energy diagnostics; HiFI captures the flare core and surrounding corona at the spatial and temporal scales where energy is released.</p>
+        </div>
+        <div class="timeline reveal" aria-label="Mission timeline">
+          <div><span>2041</span><p>Ariane 62 launch and transfer to L1</p></div>
+          <div><span>Phase E</span><p>Commissioning and early operations during the rising phase of Solar Cycle 27</p></div>
+          <div><span>4 years</span><p>Nominal science mission</p></div>
+          <div><span>+3 years</span><p>Extended mission through high solar activity</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-panel" id="instruments">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Payload</p>
+          <h2>Two instruments. One complete view of particles and plasma.</h2>
+          <p>LASSAN and HiFI are designed as a complementary package: high-energy spectroscopy identifies the accelerated particles, while EUV imaging shows where and how the solar atmosphere responds.</p>
+        </div>
+        <div class="instrument-grid">
+          <article class="instrument reveal">
+            <div class="instrument-icon gamma" aria-hidden="true">γ</div>
+            <h3>LASSAN</h3>
+            <p class="instrument-subtitle">Large Area Spectrometer for Solar Accelerated Nuclei</p>
+            <ul>
+              <li>γ-ray and X-ray spectroscopy from 4 keV to &gt;100 MeV</li>
+              <li>Electron diagnostics through bremsstrahlung emission</li>
+              <li>Ion diagnostics through nuclear γ-ray lines and pion-decay emission</li>
+              <li>Context X-ray imaging with Co-STIX heritage</li>
+            </ul>
+          </article>
+          <article class="instrument reveal">
+            <div class="instrument-icon euv" aria-hidden="true">EUV</div>
+            <h3>HiFI</h3>
+            <p class="instrument-subtitle">High Resolution Flare Imager</p>
+            <ul>
+              <li>High-cadence EUV imaging up to 0.5 s cadence</li>
+              <li>0.28″ resolution for flare kernels, ribbons and loops</li>
+              <li>Four passbands: 304 Å, 171 Å, 94 Å and 132 Å</li>
+              <li>Unsaturated flare-core imaging with multi-temperature coverage</li>
+            </ul>
+          </article>
+        </div>
+        <div class="capability-banner reveal">
+          <strong>Transformative capability:</strong> simultaneous measurement of the non-thermal particle inventory from keV to GeV alongside the multi-thermal plasma response at flare-relevant scales.
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why-now">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Why now?</p>
+          <h2>The science is urgent, and the technology is ready.</h2>
+        </div>
+        <div class="cards three">
+          <article class="card reveal">
+            <h3>MeV detector readiness</h3>
+            <p>Large-area γ-ray detector technologies now offer the sensitivity required to make ion diagnostics routine rather than exceptional.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Solar Orbiter heritage</h3>
+            <p>Solar Orbiter has demonstrated the value of high-resolution EUV and X-ray observations, while also revealing the limitations that SPARK is designed to overcome.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Solar Cycle 27</h3>
+            <p>A 2041 launch positions SPARK to observe a statistically rich sample of flares during the rise and peak of Solar Cycle 27.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team-section" id="team">
+      <div class="container split">
+        <div class="reveal">
+          <p class="section-kicker">Team & collaboration</p>
+          <h2>An international consortium with deep mission heritage</h2>
+          <p>SPARK brings together leading solar physics, heliophysics, instrumentation and data-analysis groups across Europe and international partners. The consortium draws on extensive heritage from Solar Orbiter, RHESSI, SOHO, Hinode, PROBA-2 and other major space missions.</p>
+          <p>The payload development is organised around two instrument consortia: LASSAN, led by AIP with major European contributions, and HiFI, led by UCL-MSSL with a distributed Co-PI model building on Solar Orbiter/EUI heritage.</p>
+        </div>
+        <div class="stats reveal">
+          <div><strong>2</strong><span>Core instruments</span></div>
+          <div><strong>10+</strong><span>ESA member-state contributions</span></div>
+          <div><strong>70+</strong><span>Participating scientists and engineers</span></div>
+          <div><strong>270+</strong><span>UCL-MSSL space projects heritage</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="news">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">News</p>
+          <h2>Latest updates</h2>
+        </div>
+        <div class="news-grid">
+          <article class="news-card reveal">
+            <p class="date">Mission concept</p>
+            <h3>SPARK proposed as an ESA M-class mission</h3>
+            <p>SPARK has been developed to address solar particle acceleration with a dedicated, complementary payload for high-energy spectroscopy and EUV imaging.</p>
+          </article>
+          <article class="news-card reveal">
+            <p class="date">Instrumentation</p>
+            <h3>LASSAN and HiFI build on strong European heritage</h3>
+            <p>The mission concept leverages proven detector, imaging, electronics and operations heritage from major solar and astrophysics missions.</p>
+          </article>
+          <article class="news-card reveal">
+            <p class="date">Community</p>
+            <h3>Coordinated science planning</h3>
+            <p>SPARK is designed to support community-driven observations and coordinated campaigns with space- and ground-based observatories.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section outreach-section" id="outreach">
+      <div class="container split">
+        <div class="reveal">
+          <p class="section-kicker">Outreach & education</p>
+          <h2>Connecting solar physics, space weather and society</h2>
+          <p>SPARK will support public talks, educational resources, school activities, exhibitions and citizen-science opportunities. The mission will help audiences explore how the Sun works, how space weather affects modern technology, and how scientific observations are transformed into physical understanding.</p>
+        </div>
+        <div class="outreach-list reveal">
+          <div>Public lectures and remote events</div>
+          <div>Classroom activities and teacher support</div>
+          <div>Science-centre and museum material</div>
+          <div>Citizen-science projects for solar activity</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card reveal">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>SPARK Mission Team</h2>
+          <p>For collaboration, outreach or media enquiries, please contact the SPARK coordination team.</p>
+        </div>
+        <div class="contact-details">
+          <p><strong>Lead proposer</strong><br />Dr Hamish Reid<br />UCL Mullard Space Science Laboratory</p>
+          <p><a href="mailto:hamish.reid@ucl.ac.uk">hamish.reid@ucl.ac.uk</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>SPARK</strong>
+        <p>Solar Particle Acceleration, Radiation and Kinetics</p>
+      </div>
+      <div class="footer-links">
+        <a href="#science">Science</a>
+        <a href="#mission">Mission</a>
+        <a href="#instruments">Instruments</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
