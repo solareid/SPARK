@@ -1,22 +1,20 @@
-# SPARK Mission Website — Version 3 with figures
+# SPARK Mission Website — Version 4
 
-Enhanced multi-page static website for SPARK with proposal figures included.
+Complete enhanced multi-page static website for **SPARK — Solar Particle Acceleration, Radiation and Kinetics**.
 
-## Pages
+## Included improvements
 
-- `index.html` — Home
-- `science.html` — Science case and objectives
-- `mission.html` — Mission concept and observing strategy
-- `instruments.html` — LASSAN and HiFI
-- `data.html` — Open science and data products
-- `team.html` — Consortium and collaboration
-- `outreach.html` — Outreach and education
-- `news.html` — News placeholders
-- `contact.html` — Contact information
-
-## Included figures
-
-Optimised copies of the supplied SPARK proposal figures are in `assets/figures/`.
+- Cleaner homepage hero using SPARK artwork
+- Homepage “What SPARK sees” explainer
+- Improved figure layout, captions and “Why this matters” text
+- Visual science traceability section
+- Instrument quick-facts cards
+- Restructured Team page with conference team photo
+- New Resources page
+- New Glossary page
+- Cleaner top navigation
+- Page-ending calls to action
+- Responsive figure formatting fixes
 
 ## Deploy
 
