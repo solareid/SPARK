@@ -12,6 +12,7 @@
   <title>SPARK Instruments | Solar Particle Acceleration, Radiation and Kinetics</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="v5-additions.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -28,26 +29,30 @@
 <main id="main">
 
 <section class="page-hero section"><div class="container narrow reveal"><p class="eyebrow">Payload</p><h1>LASSAN and HiFI: particles and plasma together</h1><p class="lead">SPARK’s payload is built around a single measurement philosophy: identify the accelerated particles and observe the atmospheric response at the same time.</p></div></section>
+
 <section class="section"><div class="container split"><div class="instrument big reveal"><div class="instrument-icon gamma">γ</div><h2>LASSAN</h2><p class="instrument-subtitle">Large Area Spectrometer for Solar Accelerated Nuclei</p><p>LASSAN provides γ-ray and X-ray spectroscopy from 4 keV to more than 100 MeV, allowing simultaneous measurement of hot plasma, non-thermal electrons, MeV ions and relativistic ions.</p><div class="quick-facts"><span>4 keV–&gt;100 MeV full coverage</span><span>40 keV–&gt;100 MeV γ-ray spectrometer</span><span>4–150 keV Co-STIX context imaging</span><span>Bremsstrahlung, nuclear lines, pion decay</span></div></div><div class="instrument big reveal"><div class="instrument-icon euv">EUV</div><h2>HiFI</h2><p class="instrument-subtitle">High Resolution Flare Imager</p><p>HiFI delivers high-cadence, high-resolution EUV imaging of flare ribbons, kernels, loops, waves and plasma flows while avoiding the saturation that limits current flare observations.</p><div class="quick-facts"><span>304 Å, 171 Å, 94 Å, 132 Å</span><span>Cadence down to 0.5 s</span><span>0.28″ spatial resolution</span><span>~80 kK to ~13 MK plasma coverage</span></div></div></div></section>
-<section class="section figure-showcase"><div class="container"><div class="section-heading reveal"><p class="section-kicker">Instrument figures</p><h2>Effective area, flare imaging and dynamic range</h2></div><div class="figure-grid two"><figure class="site-figure   reveal">
-  <img src="assets/figures/lassan-effective-area.png" alt="Graph of detector effective area versus energy comparing LASSAN with Fermi-LAT, Fermi-BGO, SMM, RHESSI, STIX and Fermi-NaI." loading="lazy">
-  <figcaption>LASSAN effective area compared with previous and current high-energy solar instruments.<p class="figure-why"><strong>Why this matters:</strong> Higher effective area enables time-resolved γ-ray spectroscopy across many more flares, turning rare ion diagnostics into a statistical measurement.</p></figcaption>
-</figure><figure class="site-figure   reveal">
-  <img src="assets/figures/eui-short-normal-exposure.jpg" alt="Solar flare loop images comparing saturated long exposure, short exposure and combined high dynamic range composition." loading="lazy">
-  <figcaption>Short-exposure flare imaging demonstrates how high dynamic range observations reveal flare-core structure.<p class="figure-why"><strong>Why this matters:</strong> HiFI builds on this observing concept to capture flare-core emission without saturation while retaining context.</p></figcaption>
-</figure><figure class="site-figure wide  reveal">
-  <img src="assets/figures/flare-ribbon-substructure.jpg" alt="Solar flare ribbon substructure figure comparing AIA 171 Angstrom, long-exposure HRI EUV, short-exposure HRI EUV, and time sequence panels of small-scale kernels." loading="lazy">
-  <figcaption>High-cadence, short-exposure EUV imaging resolves rapid ribbon and kernel dynamics hidden from conventional observations.<p class="figure-why"><strong>Why this matters:</strong> HiFI is designed to make these rare high-cadence flare observations routine across multiple temperature channels.</p></figcaption>
-</figure></div></div></section>
-<section class="section dark-panel"><div class="container"><div class="section-heading reveal"><p class="section-kicker">Payload synergy</p><h2>The combined measurement is the breakthrough</h2><p>LASSAN identifies particle populations and their evolving energy content. HiFI shows the evolving reconnection geometry and plasma response. Together, they provide the first direct observational framework for mechanism attribution in solar flare particle acceleration.</p></div><div class="cards three"><article class="card reveal"><h3>Spectra</h3><p>Separate thermal, non-thermal, nuclear-line and pion-decay components across the keV–MeV–GeV domain.</p></article><article class="card reveal"><h3>Timing</h3><p>Compare electron and ion timing with EUV flare-kernel, ribbon and loop dynamics.</p></article><article class="card reveal"><h3>Location</h3><p>Use Co-STIX and HiFI to relate particle precipitation to ribbons, looptops, current sheets and evolving flare structures.</p></article></div></div></section>
-<section class="section cta-section"><div class="container cta-card reveal"><div><p class="section-kicker">Next step</p><h2>Meet the collaboration</h2><p>SPARK is enabled by a broad international team with deep mission and instrumentation heritage.</p></div><a class="button primary" href="team.html">Go to Team</a></div></section>
+
+<section class="section dark-panel">
+  <div class="container">
+    <div class="section-heading reveal"><p class="section-kicker">Instrument requirements</p><h2>Performance requirements linked to the science case</h2><p>These cards translate the Step‑2 instrument requirements into a web-readable form. They show how each instrument enables the electron, ion and plasma diagnostics required by the science objectives.</p></div>
+    <div class="requirement-grid reveal">
+      <article><p class="requirement-label">LASSAN</p><h3>High-energy coverage</h3><p><strong>Requirement:</strong> γ-ray spectroscopy from about 40 keV to more than 100 MeV.</p><p><strong>Science role:</strong> Connects non-thermal electrons, energetic ions and relativistic ions in a single flare measurement.</p></article>
+      <article><p class="requirement-label">LASSAN</p><h3>Effective area</h3><p><strong>Requirement:</strong> Large effective area for high-cadence flare spectroscopy.</p><p><strong>Science role:</strong> Turns rare γ-ray ion diagnostics into routine measurements across statistically useful flare samples.</p></article>
+      <article><p class="requirement-label">LASSAN</p><h3>Energy resolution</h3><p><strong>Requirement:</strong> Sufficient spectral resolution for nuclear-line diagnostics.</p><p><strong>Science role:</strong> Enables composition, ion-energy and nuclear-line studies needed to constrain acceleration mechanisms.</p></article>
+      <article><p class="requirement-label">LASSAN / Co-STIX</p><h3>Context imaging</h3><p><strong>Requirement:</strong> X-ray imaging spectroscopy from about 4–150 keV.</p><p><strong>Science role:</strong> Places high-energy electron signatures in the flare geometry observed by HiFI.</p></article>
+      <article><p class="requirement-label">HiFI</p><h3>Passbands</h3><p><strong>Requirement:</strong> EUV imaging at 304 Å, 171 Å, 94 Å and 132 Å.</p><p><strong>Science role:</strong> Tracks transition-region, coronal and hot flare plasma across the thermal response of the atmosphere.</p></article>
+      <article><p class="requirement-label">HiFI</p><h3>Cadence</h3><p><strong>Requirement:</strong> Imaging cadence down to 0.5 s.</p><p><strong>Science role:</strong> Resolves rapid flare kernels, QPPs, waves and impulsive energy deposition.</p></article>
+      <article><p class="requirement-label">HiFI</p><h3>Resolution</h3><p><strong>Requirement:</strong> Spatial resolution of approximately 0.28″.</p><p><strong>Science role:</strong> Resolves fine-scale flare ribbons, kernels, plasmoids and loop structures.</p></article>
+      <article><p class="requirement-label">HiFI</p><h3>Field of view</h3><p><strong>Requirement:</strong> Active-region-scale high-resolution EUV field of view.</p><p><strong>Science role:</strong> Captures flare sites while preserving the spatial detail required to connect plasma evolution with particle signatures.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section figure-showcase"><div class="container"><div class="section-heading reveal"><p class="section-kicker">Instrument figures</p><h2>Effective area, flare imaging and dynamic range</h2></div><div class="figure-grid two"><figure class="site-figure reveal"><img src="assets/figures/lassan-effective-area.png" alt="Graph of detector effective area versus energy comparing LASSAN with previous and current high-energy solar instruments." loading="lazy"><figcaption>LASSAN effective area compared with previous and current high-energy solar instruments.<p class="figure-why"><strong>Why this matters:</strong> Higher effective area enables time-resolved γ-ray spectroscopy across many more flares.</p></figcaption></figure><figure class="site-figure reveal"><img src="assets/figures/eui-short-normal-exposure.jpg" alt="Solar flare loop images comparing saturated long exposure, short exposure and combined high dynamic range composition." loading="lazy"><figcaption>Short-exposure flare imaging demonstrates how high dynamic range observations reveal flare-core structure.<p class="figure-why"><strong>Why this matters:</strong> HiFI builds on this concept to capture flare-core emission without saturation.</p></figcaption></figure><figure class="site-figure wide reveal"><img src="assets/figures/flare-ribbon-substructure.jpg" alt="Solar flare ribbon substructure figure comparing AIA and HRI EUV observations." loading="lazy"><figcaption>High-cadence, short-exposure EUV imaging resolves rapid ribbon and kernel dynamics hidden from conventional observations.<p class="figure-why"><strong>Why this matters:</strong> HiFI is designed to make this type of flare observation routine across multiple temperature channels.</p></figcaption></figure></div></div></section>
 </main>
 <footer class="site-footer">
   <div class="container footer-grid">
-    <div>
-      <strong>SPARK</strong>
-      <p>Solar Particle Acceleration, Radiation and Kinetics</p>
-    </div>
+    <div><strong>SPARK</strong><p>Solar Particle Acceleration, Radiation and Kinetics</p></div>
     <div class="footer-col"><span>Explore</span><a href="science.html">Science</a><a href="mission.html">Mission</a><a href="instruments.html">Instruments</a><a href="team.html">Team</a><a href="resources.html">Resources</a><a href="contact.html">Contact</a></div>
     <div class="footer-col"><span>More</span><a href="data.html">Data</a><a href="outreach.html">Outreach</a><a href="news.html">News</a><a href="glossary.html">Glossary</a></div>
   </div>
